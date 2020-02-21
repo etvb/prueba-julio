@@ -285,6 +285,7 @@ blockquote strong {
 }
 
 .navbar .in a:hover {
+	/* 3DC9B3 */
     color: #3DC9B3 !important;
 }
 
@@ -371,7 +372,7 @@ hr.bold {
 }
 
 .color-dark .section-heading h2 {
-	color: #111;
+	color:rgba(18, 47, 107, 1);
 }
 .color-dark .section-heading p {
 	color: #444;
@@ -434,9 +435,10 @@ hr.bold {
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
-.learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
-.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
+.learn-more-btn { background: rgba(18, 47, 107, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px rgba(18, 47, 107, 1); -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px rgba(18, 47, 107, 1); margin: 60px 0 0; font-weight: bold; }
+.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(18, 47, 107, 1); color: #fff; }
 
+/* rgba(61, 201, 179, 1) */
 
 
 .intro {
@@ -968,6 +970,7 @@ a.btn:focus{
 
 .btn-default:hover,
 .btn-default:focus {
+	/* 28c3ab */
     border: 1px solid #28c3ab;
     outline: 0;
     color: #000;
