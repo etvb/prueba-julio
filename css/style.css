@@ -1,10 +1,4 @@
-/*
-    Theme Name: Bocor
-    Theme URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-/* ==== Google font ==== */
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 *{
@@ -996,7 +990,20 @@ a.btn:focus{
   line-height: 40px;
 }
 
+
+
 /* Media queries */
+
+@media(max-width: 990px){
+ 
+	img{
+	 width: 20%;
+	 border: 1px solid red;
+	 
+ }
+
+
+}
 
 @media(min-width:767px) {
 
@@ -1035,6 +1042,8 @@ a.btn:focus{
 
 
 }
+
+
 @media (max-width:768px) {
 	#navigation {
 		padding: 20px 0;
