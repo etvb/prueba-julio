@@ -244,10 +244,15 @@ blockquote strong {
 	color: #666;
 }
 
+.navbar-custom .nav li{
+	margin: 1px;
+}
+
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+	border-bottom: 1px solid #dc3545;
 }
 
 .navbar-custom .nav li a:hover,
@@ -376,7 +381,7 @@ hr.bold {
 	background: #666;
 }
 .color-dark .divider-header {
-	background: #666;
+	background: #dc3545;
 }
 
 .color-light .divider-short {
@@ -1131,7 +1136,7 @@ a.btn:focus{
 	}
 
 	.navbar-custom ul.nav li a{
-		font-size: 8px;
+		font-size: 7px;
 		padding: 2px;
 		/* padding: 2px; */
 	}
