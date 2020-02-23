@@ -997,10 +997,24 @@ a.btn:focus{
 @media(max-width: 990px){
  
 	img{
-	 width: 20%;
-	 border: 1px solid red;
+	 /* width: 50%; */
+	 /* border: 1px solid red; */
 	 
  }
+
+ .navbar-custom ul.nav li a {
+	/* color: #000; */
+	/* font-size: 10px; */
+	/* font-weight: 600; */
+	/* border: 1px solid red; */
+		padding: 4px;
+		font-size: 12px;
+    letter-spacing: 1px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 
 
 }
@@ -1048,13 +1062,20 @@ a.btn:focus{
 	#navigation {
 		padding: 20px 0;
 	}
+
+	img{
+		width: 30%;
+ }
+
 	.site-logo{
 		margin: 0 0 0 30px;
 		float:none;
 	}
-	.navbar-custom ul.nav li a {
-		color: #eee;
-	}
+	/* .navbar-custom ul.nav li a {
+		color: #000;
+		font-size: 10px;
+		font-weight: normal;
+	} */
 	.navbar-custom ul.nav ul.dropdown-menu li {
 		border-bottom: 1px solid #aaa;
 
@@ -1074,7 +1095,7 @@ a.btn:focus{
 	}
 
 	.navbar-custom .nav {
-		background: #444;
+		/* background: #444; */
 	}
 
 	.service-box {
@@ -1095,7 +1116,25 @@ a.btn:focus{
 
 }
 
+@media (max-width: 514px){
+
+	.navbar-custom ul.nav li a{
+		font-size: 10px;
+		/* padding: 2px; */
+	}
+}
+
 @media (max-width:480px) {
+
+	img{
+		width: 20%;
+	}
+
+	.navbar-custom ul.nav li a{
+		font-size: 8px;
+		padding: 2px;
+		/* padding: 2px; */
+	}
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
@@ -1104,6 +1143,8 @@ a.btn:focus{
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
 	}
+
+	
 }
 
 section {
