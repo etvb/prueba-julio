@@ -1155,3 +1155,12 @@ a.btn:focus{
 section {
 	overflow: hidden !important;
 }
+
+
+.paralax-chico{
+	height: 250px;
+	background-image: url(../img/containers.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
