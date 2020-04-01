@@ -1168,3 +1168,7 @@ section {
 .medium{
 	font-size: 1.9rem;
 }
+
+.negrita{
+	font-weight: bold;
+}
