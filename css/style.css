@@ -6,6 +6,8 @@
 	margin:0;
 }
 
+/* azul= rgba(18, 47, 107, 1) */
+
 
 body {
     width: 100%;
@@ -606,7 +608,7 @@ hr.bold {
 .service-desc h5 {
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #666;
+	color: rgba(18, 47, 107, 1);
 	font-size: 18px;
 	margin-bottom: 10px;
 }
@@ -1171,4 +1173,8 @@ section {
 
 .negrita{
 	font-weight: bold;
+}
+
+h5{
+	color:rgba(18, 47, 107, 1);
 }
