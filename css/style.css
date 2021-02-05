@@ -1178,3 +1178,19 @@ section {
 h5,h1,.punto{
 	color:rgba(18, 47, 107, 1);
 }
+
+/* Botones */
+.btn-flotante {
+  width: 40px;
+  display: block;
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  z-index: 999999999;
+	
+}
+
+.btn-flotante img {
+  width: 100%; 
+}
+
